@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Inter:wght@900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Start of header section */
+
+header{
+    width: 100%;
+    height: 61px;
+    background-color: #000;
+    /* border-bottom: 1px solid lime; */
+    position: sticky;
+}
+.display_btns{
+    width: 88.5%;
+    height: 100%;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 3%;
+    height: 80%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .logo img{
+    width: 4%;
+    height: 80%;
+} */
+
+.links{
+    width: 96%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.menu li{
+    padding: 33px;
+}
+.menu li a{
+    color: gray;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.menu li a:active{
+    color: white;
+}
+.menu li a:hover{
+    color: white;
+}
+
+/* End of header section */
+
+/* Start of main section */
+
+main{
+    width: 100%;
+    height: 7761px;
+}
+.navbar_consols{
+    width: 100%;
+    height: 121px;
+    border-bottom: 1px solid lime;
+    background-color: #222;
+}
+.navbar_consols nav{
+    width: 88.955%;
+    height: 100%;
+    margin: auto;
+}
+.navbar-list{
+    width: 100%;
+    height: 100%;
+    padding: 18px 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.navbar-list li a img{
+    padding: 0 34px;
+    padding-top: 2vh;
+}
+
+.navbar-list li a span{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.navbar-list li a span:hover{
+    color: limegreen;
+}
+/* Начало скидки на курсы */
+
+#RazerStore_Rewards{
+    width: 100%;
+    height: 44px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span_text{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+#RazerStore_Rewards span a{
+    text-decoration: none;
+    color: white;
+}
+#RazerStore_Rewards p a:hover{
+    text-decoration: underline;
+}
+.intro-tag{
+    width: 100%;
+    height: 229px;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+}
+.text{
+    width: 66%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+.header{
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    text-transform: uppercase;
+    color: limegreen;
+    font-family: 'Roboto',sans-serif;
+    padding-bottom: 0.3125rem;
+    font-weight: 100;
+}
+.paragraph{
+    color: #999;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.9rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 8px;
+}
+.link{
+    width: 100%;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setup{
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+    border-bottom: 1px solid limegreen;
+    background-color: pink;
+    background-image: url(/images/stormtrooper-1920x700-desktop.jpg);
+    background-position: center;
+}
+.container_setup{
+    width: 89.22%;
+    height: 100%;
+    /* border: 1px solid white; */
+    margin: auto;
+}
+.section-header{
+    width: 100%;
+    height: 95px;
+    /* border: 1px solid black; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 67px;
+}
+.subhead_paragraph{
+    width: 62.5%;
+    height: 54px;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 0.6rem 1rem 1.25rem;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    font-weight: 300;
+}
+.green_link{
+    color: limegreen;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+#green-link:hover{
+    text-decoration: underline;
+}
+.console_containers{
+    width: 100%;
+    height: 604px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+}
+.console_cards_group{
+    width: 100%;
+    height: 554px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+}
+.console_group_panel{
+    width: 89.2855%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.console_product_cards{
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.console_card{
+    width: 33%;
+    height: 100%;
+    /* border: 1px solid white; */
+    margin: 0 1.3%;
+    background-color: #111;
+    border-bottom: 1px solid lime;
+}
+.console_item_card{
+    width: 100%;
+    height: 388px;
+    /* border-bottom: 1px solid red; */
+}
+.console_item_card a img{
+    width: 100%;
+    height: 100%;
+}
+.item-text-1{
+    color: white;
+    padding: 10px 10px;
+    padding-bottom: 0px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.item-long-text-1{
+    color: gray;
+    font-size: 14px;
+    padding: 10px 10px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+.button_green_link{
+    color: limegreen;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 18.5px 10px;
+    padding-bottom: 18.5px;
+}
+
+.usp_dark_bg_laptop{
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+    background-image: url(/images/back-to-school-july22-1920x400.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.laptop_bg_container{
+    width: 89.2855%;
+    height: 100%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.laptop_main_content{
+    width: 33.8435374149659%;
+    height: 45%;
+    /* border: 1px solid red; */
+    margin: 0 24px;
+}
+.laptop_header{
+    width: 100%;
+    height: 97px;
+    /* border-bottom: 1px solid white; */
+    position: relative;
+    top: 0;
+    font-size: 1.75rem;
+    color: white;
+    padding-top: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.container-it1{
+    width: 100%;
+    height: 27px;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+.green_exclusive_link{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    color: limegreen;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+.accessories_for_consols{
+    width: 100%;
+    height: 510px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+}
+.accessory_panel{
+    width: 100%;
+    height: 460px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+.accessory_cards{
+    width: 89.15%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.accessories_cards_consols{
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.accessory_card{
+    width: 23%;
+    height: 100%;
+    border: 1px solid white;
+}
+.accessory_image{
+    width: 100%;
+    height: 268px;
+    border-bottom: 1px solid white;
+    background-color: black;
+}
+.accessory_image a img{
+    width: 100%;
+    height: 100%;
+}
+.usp-bg-audio{
+    width: 100%;
+    height: 400px;
+    background-image: url(/images/science-audio-category-1920x400-desktop.jpg);
+    background-position: center;
+}
+.usp-bg-audio-grid{
+    width: 89%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.main_audio_inf{
+    width: 44.2%;
+    height: 57.5%;
+    /* border: 1px solid white; */
+    padding: 0 14px;
+    position: relative;
+    right: 28px;
+    text-align: left;
+}
+.audio_header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 28px;
+    padding-left: 18px;
+    padding: 16px 18px;
+}
+.usp_gamepad{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    background-image: url(/images/console-gamepads-engineered-category-desktop.jpg);
+    background-position: center;
+}
+.gamepad_container{
+    width: 89%;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.usp_gamepad_container{
+    width: 98%;
+    height: 100%;
+}
+
+/* End of main section */
+
+/* Start of footer section */
+
+footer{
+    width: 100%;
+    height: 372px;
+    border: 0px solid transparent;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+}
+.footer_container{
+    width: 1200px;
+    height: 320px;
+    border: 0px solid white;
+    margin-left: 4%;
+}
+.colonels{
+    width: 1200px;
+    height: 270px;
+    border: 0px solid red;
+    display: flex;
+}
+.col_footer-top{
+    width: 238px;
+    height: 100%;
+    border: 0px solid white
+}
+.col_footer-middle{
+    width: 238px;
+    height: 100%;
+    border: 0px solid white
+}
+.lable-content{
+    width: 214px;
+    height: 100%;
+    border: 0px solid white;
+    margin: auto;
+    color: white;
+}
+.lable-content ul li{
+    padding-bottom: 1rem;
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    list-style: none;
+}
+.lable-content ul li a{
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.lable-content ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.razer_slogan{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    color: #44d62c;
+    padding-right: 0.54rem;
+    padding-bottom: 0.25rem;
+}
+.d-inline-flex {
+    display: inline-flex!important;
+}
+.social-media{
+    width: 120px;
+    height: 30px;
+    border: 0px solid white;
+    float: right;
+    display: flex;
+}
+.social_icon{
+    width: 40px;
+    height: 100%;
+    border: 0px solid white;
+}
+.social_icon a img{
+    height: 30px;
+    margin-left: 5px;
+
+    margin-right: 5px;
+}
+.line{
+    width: 100%;
+    height: 33px;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.line-divider{
+    width: 96%;
+    height: 0px;
+    border: 0.1px solid #444;
+    margin-left: 1%;
+}
+.copyright{
+    width: 96%;
+    height: 17px;
+    /* border: 1px solid blue; */
+    margin-left: 1%;
+    color: #999;
+    font-size: 12px;
+    display: flex;
+}
+.left-footer{
+    width: 60%;
+    height: 100%;
+    /* border-right: 1px solid white; */
+}
+.left-footer a{
+    color: #999;
+    text-decoration: none;
+}
+.left-footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.right-footer{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid white; */
+    text-align: right;
+    float: right;
+    color: white
+}
+.right-footer a{
+    color: #999;
+    text-decoration: none;
+}
+.right-footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+/* End of footer section */

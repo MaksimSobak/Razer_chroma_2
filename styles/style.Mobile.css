@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Inter:wght@900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Start of header section */
+
+header{
+    width: 100%;
+    height: 61px;
+    background-color: #000;
+    /* border-bottom: 1px solid lime; */
+    position: sticky;
+}
+.display_btns{
+    width: 88.5%;
+    height: 100%;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 3%;
+    height: 80%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .logo img{
+    width: 4%;
+    height: 80%;
+} */
+
+.links{
+    width: 96%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.menu li{
+    padding: 33px;
+}
+.menu li a{
+    color: gray;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.menu li a:hover{
+    color: white;
+}
+.menu li a:active{
+    color: white;
+}
+/* End of header section */
+
+/* Start of main section */
+
+.main_page{
+    width: 100%;
+    height: 4266px;
+    background-color: red;
+}
+.navbar_consols{
+    width: 100%;
+    height: 121px;
+    border-bottom: 1px solid lime;
+    background-color: #222;
+}
+.navbar_consols nav{
+    width: 88.955%;
+    height: 100%;
+    margin: auto;
+}
+
+#RazerStore_Rewards{
+    width: 100%;
+    height: 44px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span_text{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+#RazerStore_Rewards span a{
+    text-decoration: none;
+    color: white;
+}
+#RazerStore_Rewards p a:hover{
+    text-decoration: underline;
+}
+.intro-tag{
+    width: 100%;
+    height: 229px;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+}
+.text{
+    width: 66%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+}
+.header{
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    text-transform: uppercase;
+    color: limegreen;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 50%;
+    padding-bottom: 0.3125rem;
+    font-weight: 100;
+}
+.paragraph{
+    color: #999;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.9rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 8px;
+}
+.setup{
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+    border-bottom: 1px solid limegreen;
+    background-color: pink;
+    background-image: url(/images/stormtrooper-1920x700-desktop.jpg);
+    background-position: center;
+}
+.container_setup{
+    width: 89.22%;
+    height: 100%;
+    /* border: 1px solid white; */
+    margin: auto;
+}
+.section-header{
+    width: 100%;
+    height: 95px;
+    /* border: 1px solid black; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 67px;
+}
+.subhead_paragraph{
+    width: 62.5%;
+    height: 54px;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 0.6rem 1rem 1.25rem;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    font-weight: 300;
+}
+.green_link{
+    color: limegreen;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+#green-link:hover{
+    text-decoration: underline;
+}
+.link{
+    width: 100%;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PC_sections{
+    width: 100%;
+    height: 551px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PC_cards{
+    width: 100%;
+    height: 501px;
+    border: 0px solid blue;
+}
+.multicards{
+    width: 88.954%;
+    height: 100%;
+    border: 0px solid red;
+    margin: auto;
+}
+.panel_cards{
+    width: 98%;
+    height: 100%;
+    border: 0px solid green;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    width: 32.5%;
+    height: 100%;
+    border: 0px solid black;
+    background-color: black;
+}
+.img_item{
+    width: 100%;
+    height: 377px;
+    border: 0px solid blue;
+}
+.img_item img{
+    width: 100%;
+    height: 100%;
+}
+.item-text-1{
+    color: white;
+    padding: 10px 10px;
+    padding-bottom: 0px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.item-long-text-1{
+    color: gray;
+    font-size: 14px;
+    padding: 10px 10px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+.button_green_link{
+    color: limegreen;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 18.5px 10px;
+    padding-bottom: 18.5px;
+}
+.Software_products{
+    width: 100%;
+    height: 606px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+.software_multipanels{
+    width: 100%;
+    height: 581px;
+}
+.software_container{
+    width: 89.1%;
+    height: 100%;
+    margin: auto;
+}
+.software-panel-container{
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.software_programm_cards{
+    width: 381px;
+    height: 556px;
+    border-bottom: 1px solid lime; 
+    display: inline-block;
+    background-color: #111;
+}
+.software_image{
+    width: 100%;
+    height: 381px;
+}
+.software_image a img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 372px;
+    border: 0px solid transparent;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+}
+.footer_container{
+    width: 1200px;
+    height: 320px;
+    border: 0px solid white;
+    margin-left: 4%;
+}
+.colonels{
+    width: 1200px;
+    height: 270px;
+    border: 0px solid red;
+    display: flex;
+}
+.col_footer-top{
+    width: 238px;
+    height: 100%;
+    border: 0px solid white
+}
+.col_footer-middle{
+    width: 238px;
+    height: 100%;
+    border: 0px solid white
+}
+.lable-content{
+    width: 214px;
+    height: 100%;
+    border: 0px solid white;
+    margin: auto;
+    color: white;
+}
+.lable-content ul li{
+    padding-bottom: 1rem;
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    list-style: none;
+}
+.lable-content ul li a{
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.lable-content ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.razer_slogan{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    color: #44d62c;
+    padding-right: 0.54rem;
+    padding-bottom: 0.25rem;
+}
+.d-inline-flex {
+    display: inline-flex!important;
+}
+.social-media{
+    width: 120px;
+    height: 30px;
+    border: 0px solid white;
+    float: right;
+    display: flex;
+}
+.social_icon{
+    width: 40px;
+    height: 100%;
+    border: 0px solid white;
+}
+.social_icon a img{
+    height: 30px;
+    margin-left: 5px;
+
+    margin-right: 5px;
+}
+.line{
+    width: 100%;
+    height: 33px;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.line-divider{
+    width: 96%;
+    height: 0px;
+    border: 0.1px solid #444;
+    margin-left: 1%;
+}
+.copyright{
+    width: 96%;
+    height: 17px;
+    /* border: 1px solid blue; */
+    margin-left: 1%;
+    color: #999;
+    font-size: 12px;
+    display: flex;
+}
+.left-footer{
+    width: 60%;
+    height: 100%;
+    /* border-right: 1px solid white; */
+}
+.left-footer a{
+    color: #999;
+    text-decoration: none;
+}
+.left-footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.right-footer{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid white; */
+    text-align: right;
+    float: right;
+    color: white
+}
+.right-footer a{
+    color: #999;
+    text-decoration: none;
+}
+.right-footer a:hover{
+    text-decoration: underline;
+    color: white;
+}

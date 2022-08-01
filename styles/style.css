@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Inter:wght@900&family=Pacifico&family=Roboto:wght@500&family=Rubik:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 61px;
+    background-color: #000;
+    border-bottom: 1px solid lime;
+    position: sticky;
+}
+.display_btns{
+    width: 88.5%;
+    height: 100%;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 3%;
+    height: 80%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .logo img{
+    width: 4%;
+    height: 80%;
+} */
+
+.links{
+    width: 96%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.menu li{
+    padding: 33px;
+}
+.menu li a{
+    color: gray;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.menu li a:hover{
+    color: white;
+}
+.menu li a:active{
+    color: white;
+}
+main{
+    width: 100%;
+    height: 3914px;
+    border: 1px solid black; 
+}
+.discount_for{
+    width: 100%;
+    height: 44px;
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+}
+.discount_for a{
+    text-decoration: none;
+    color: white;
+}
+.discount_for a:hover{
+    text-decoration: underline;
+}
+.new_trend_products{
+    width: 100%;
+    height: 2130px;
+    /* background-color: black; */
+}
+.razer_keyboards{
+    width: 100%;
+    height: 710px;
+    background-image: url(/images/deathstalkerpro-homepage-large.jpg);
+    background-position-x: 50%;
+    background-position-y: 100%;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.234)
+}
+.razer_laptops{
+    width: 100%;
+    height: 710px;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.234);
+    background-image: url(/images/razer-blade14-2022-homepage-desktop.jpg);
+    background-position-x: 50%;
+    background-position-y: 100%;
+}
+.razer_headphones{
+    width: 100%;
+    height: 710px;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.234);
+    background-image: url(/images/bape-homepage-desktop.jpg);
+    background-position-x: 50%;
+    background-position-y: 100%;
+}
+.name_of_products{
+    margin: auto;
+    width: 80%;
+    height: 200px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.name_of_products span p{
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: 'roboto', sans-serif;
+}
+.links_cources{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+}
+.links_cources:hover{
+    text-decoration: underline;
+}
+.banners_of_products{
+    width: 100%;
+    height: 1740px;
+    max-height: 1740px;
+    border: 0px solid red;
+}
+.highlights{
+    width: 100%;
+    height: 100%;
+}
+.highlights li{
+    width: 50%;
+    min-width: 50%;
+    min-height: 580px;
+    height: 580px;
+    border: 0px solid black;
+    display: block;
+}
+.razer_enki_pro{
+    background-image: url(/images/enkipro-b-950x580-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.new_razer_blade{
+    background-image: url(/images/new-razer-blade-15-2022-b-950x580-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.playstation_5{
+    background-image: url(/images/qcsps5-950x580-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.be_in_class{
+    background-image: url(/images/bts22-b-950x580-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.razer_chair{
+    background-image: url(/images/rzr-chairs-b-950x580-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.razer_viper_v2_pro{
+    background-image: url(/images/razer-viper-v2-pro-b-950x580-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.about_products{
+    width: 100%;
+    height: 172px;
+    border-bottom: 0px solid white;
+    position: relative;
+    top: 0%;
+}
+.orange_link_button{
+    width: 100%;
+    height: 68px;
+    border: 0px solid white;
+    position: relative;
+    top: 0;
+    padding-top: 32px;
+}
+.button{
+    width: 100%;
+    height: 36px;
+    border: 0px solid orange;
+    position: relative;
+    bottom: 0;
+}
+.button a{
+    display: block;
+    width: 16%;
+    height: 100%;
+    background-color: #ff9c07;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-family: 'roboto', sans-serif;
+}
+.text_ad{
+    background: 0 0;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    margin: 0 auto;
+    max-width: 90%;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.title{
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: none;
+}
+.regular_text_subhead{
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 1.15rem;
+    font-weight: 300;
+    margin-top: 0.1rem;
+    line-height: 1.3;
+}
+.cta-links{
+    width: 100%;
+    height: 30px;
+}
+.gtm_learn_more{
+    color: #fff;
+    font-size: 1.0625rem;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    padding: 0 1rem;
+    width: auto !important;
+    z-index: 12;
+}
+.gtm_learn_more .title{
+    color: #fff;
+    font-size: 1.0625rem;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    padding: 0 1rem;
+    width: auto !important;
+    z-index: 12;
+}
+.gtm_learn_more .title span{
+    color: #fff;
+    font-size: 1.0625rem;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 100px;
+    padding: 0rem;
+    width: auto !important;
+    z-index: 12;
+}
+.arrow::after{
+    content: ">";
+    color: #44d62c;
+    display: inline-block;
+    padding-left: 0px;
+}
+.arrow:before{
+    box-sizing: border-box;
+}
+.text_products{
+    width: 100%;
+    height: 140px;
+    border-bottom: 0px solid white;
+}
+.text_products .text{
+    background: 0 0;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    margin: 0 auto;
+    max-width: 90%;
+    padding-top: 2.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.text_products .text .title{
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: none;
+}
+.text_products .text .regular-text-subhead{
+    color: #fff;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 1.1875rem;
+    font-weight: 300;
+    margin-top: 0.75rem;
+    line-height: 1.3;
+}
+.gta-links{
+    width: 100%;
+    height: 30px;
+    border-bottom: 0px solid white;
+}
+.exclusive_deals{
+    color: white;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    padding-left: 36.5%;
+    font-size: 18px;
+}
+.learn{
+    color: white;
+    padding: 37%;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+}
+.arrow{
+    color: lime;
+    padding-left: 1%;
+}
+.Buy{
+    color: white;
+    padding: 80%;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    padding-top: 0px;
+}
+footer{
+    width: 100%;
+    height: 372px;
+    border: 0px solid transparent;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+.footer_container{
+    width: 1200px;
+    height: 320px;
+    border: 0px solid white;
+    margin-left: 4%;
+}
+.colonels{
+    width: 1200px;
+    height: 270px;
+    border: 0px solid red;
+    display: flex;
+}
+.col_footer-top{
+    width: 238px;
+    height: 100%;
+    border: 0px solid white
+}
+.col_footer-middle{
+    width: 238px;
+    height: 100%;
+    border: 0px solid white
+}
+.lable-content{
+    width: 214px;
+    height: 100%;
+    border: 0px solid white;
+    margin: auto;
+    color: white;
+}
+.lable-content ul li{
+    padding-bottom: 1rem;
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    list-style: none;
+}
+.lable-content ul li a{
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.razer_slogan{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    color: #44d62c;
+    padding-right: 0.54rem;
+    padding-bottom: 0.25rem;
+}
+.d-inline-flex {
+    display: inline-flex!important;
+}
+.social-media{
+    width: 120px;
+    height: 30px;
+    border: 0px solid white;
+    float: right;
+    display: flex;
+}
+.social_icon{
+    width: 40px;
+    height: 100%;
+    border: 0px solid white;
+}
+.social_icon a img{
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.line-divider{
+    width: 96%;
+    height: 0px;
+    border: 0.1px solid #444;
+    margin-left: 1%;
+    margin-top: 16px;
+}
+.copyright{
+    width: 96%;
+    height: 17px;
+    /* border: 1px solid blue; */
+    margin-left: 1%;
+    color: #999;
+    font-size: 12px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 16px;
+}
+.left-footer{
+    width: 60%;
+    height: 100%;
+    /* border-right: 1px solid white; */
+}
+.left-footer a{
+    color: #999;
+    text-decoration: none;
+}
+.left-footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.right-footer{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid white; */
+    text-align: right;
+    float: right;
+    color: white
+}
+.right-footer a{
+    color: #999;
+    text-decoration: none;
+}
+.right-footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+/* .gta_learn_more{
+    color: #fff;
+    font-size: 1.0625rem;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    padding: 0 1rem;
+    width: auto !important;
+    z-index: 12;
+}
+.gta_learn_more .title{
+    color: #fff;
+    font-size: 1.0625rem;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: normal;
+}
+.gta_learn_more .title span{
+    color: #fff;
+    font-size: 1.0625rem;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    padding: 0 14.5rem;
+    width: auto !important;
+    z-index: 12;
+}
+.gta_learn_more .title .arrow{
+    color: lime;
+} */ 
